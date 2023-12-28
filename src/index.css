@@ -54,25 +54,46 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+  background: #555;
 }
 
 .square {
-  background: #fff;
+  background: #ddd;
   border: 1px solid #999;
   float: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 54px;
+  height: 100px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 54px;
+  width: 100px;
 }
 
 .board-row:after {
   clear: both;
   content: '';
   display: table;
+}
+/* .card{
+  background: #ddd;
+  display: block;
+  min-width: auto;
+  min-height: auto;
+  padding: 50px;
+  width: 50%;
+  margin: 100px auto;
+  
+} */
+.container{
+  margin: 100px auto 0;
+  max-width: 470px;
+}
+.status{
+  font-size: 20px;
+  font-weight: 800;
+  padding: 17px;
+  color: #000;
 }
