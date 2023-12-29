@@ -74,7 +74,7 @@ body {
 
 .board-row:after {
   clear: both;
-  content: '';
+  content: "";
   display: table;
 }
 /* .card{
@@ -87,23 +87,20 @@ body {
   margin: 100px auto;
   
 } */
-.container{
+.container {
   margin: 100px auto 0;
   max-width: 470px;
 }
-.status{
+.status {
   font-size: 20px;
   font-weight: 800;
   padding: 17px;
   color: #000;
 }
 
-
 @media only screen and (max-width: 525px) {
-  .container{
+  .container {
     padding: 44px;
-    margin: -57px 0px;
-    max-width: auto;
     width: 100%;
     display: inline-block;
     height: 100vh;
