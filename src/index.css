@@ -99,13 +99,12 @@ body {
 }
 
 
-@media only screen and (max-width: 525px) {
+@media only screen and (max-width: 425px) {
   .container{
-    padding: 44px;
-    margin: -57px 0px;
-      width: 100%;
-    display: inline-block;
+    width: 298px;
+    margin: 24px -7px;
     height: 100vh;
     overflow-y: hidden;
+    display: inline-block;
   }
 }
