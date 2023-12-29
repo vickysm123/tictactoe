@@ -97,3 +97,16 @@ body {
   padding: 17px;
   color: #000;
 }
+
+
+@media only screen and (max-width: 525px) {
+  .container{
+    padding: 44px;
+    margin: -57px 0px;
+    max-width: auto;
+    width: 100%;
+    display: inline-block;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+}
